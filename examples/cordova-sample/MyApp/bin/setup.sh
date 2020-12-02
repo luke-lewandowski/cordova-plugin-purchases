@@ -5,6 +5,8 @@ cordova platform remove android
 cordova platform add ios
 cordova platform add android
 
+cordova plugin add cordova-plugin-add-swift-support --save
+
 cordova plugin remove cordova-plugin-purchases
 cordova plugin add ../../../../cordova-plugin-purchases --link --save
 
